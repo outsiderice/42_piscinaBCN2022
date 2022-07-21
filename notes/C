@@ -1,0 +1,26 @@
+gcc -o liet's you name directly the output of the compilation (instead of default a.out)
+
+*search 'swap' in regard to memory
+
+CHAR
+
+%lu size of char <only char?>, %d number of char in ascii<only?> table, %c ascii value aka letter
+
+INT
+
+4:40
+
+POINTERS
+
+WAYS TO DECLARE A POINTER VARIABLE
+
+1-	int* myNum;	<most used>
+2-	int	*myNum;
+3-	int * myNum;
+
+to declare a pointer it still needs a type.
+
+"%p"	--> returns address;
+"%d"	--> returns content;
+
+ptr = &a;	--> this pointer has the address of a;

@@ -1,0 +1,27 @@
+Can't do these recognized words in 42: for, do..while, switch, case, goto
+mnemonic: For fuck's sake do remember while in 42 switch your case, you gotta (goto)
+
+include these libraries most times:
+stdio.h
+unistd.h
+
+reserved words to understand:
+auto
+break -> used to stop a loop
+case
+char -> stores only one character ="a"
+const -> variable that can't be changed
+continue -> continue loop after break
+default
+double -> up to 12
+else -> if and else
+enum 
+extern
+float -> decimal numbers, up to 6bytes
+if -> conditional
+int -> 2 bytes of memory
+long 
+register
+return
+short
+

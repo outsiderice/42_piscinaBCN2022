@@ -1,0 +1,21 @@
+# **************************************************************************** #
+#                                                                              #
+#                                                         :::      ::::::::    #
+#    pseudo                                             :+:      :+:    :+:    #
+#                                                     +:+ +:+         +:+      #
+#    By: amagnell <amagnell@student.42barcel>       +#+  +:+       +#+         #
+#                                                 +#+#+#+#+#+   +#+            #
+#    Created: 2022/07/11 15:20:57 by amagnell          #+#    #+#              #
+#    Updated: 2022/07/11 21:04:43 by amagnell         ###   ########.fr        #
+#                                                                              #
+# **************************************************************************** #
+
+while a is less than or equal to 7
+	a=0
+	b=1
+	c=2
+	if a is different from b, b is different frmo c, and c different from a
+		write digits
+	else if c is less than 9 add 1 to c
+	else add 1 to b, and c returns to a higher number than the one it started before
+
