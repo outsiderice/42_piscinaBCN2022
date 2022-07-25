@@ -6,7 +6,7 @@
 /*   By: amagnell <amagnell@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/15 20:39:27 by amagnell          #+#    #+#             */
-/*   Updated: 2022/07/17 09:57:58 by amagnell         ###   ########.fr       */
+/*   Updated: 2022/07/22 15:58:25 by amagnell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,15 +25,13 @@ void	ft_swap(int *a, int *b)
 	*b = swap;
 }
 
-/*int	main(void)
+int	main(void)
 {
 	int	a;
 	int	b;
 
 	a = 0;
 	b = 42;
-	printf("a=%d b=%d\n", a, b);
-	ft_swap(&a, &b);
-	printf("a=%d b=%d\n", a, b);
+	ft_swap(a, b);
 	return (0);
-}*/
+}

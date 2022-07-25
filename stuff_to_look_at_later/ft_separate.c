@@ -1,32 +1,29 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   ft_strlen.c                                        :+:      :+:    :+:   */
+/*   ft_separate.c                                      :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: amagnell <amagnell@student.42barcel>       +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2022/07/18 19:39:40 by amagnell          #+#    #+#             */
-/*   Updated: 2022/07/24 20:58:28 by amagnell         ###   ########.fr       */
+/*   Created: 2022/07/23 16:48:30 by amagnell          #+#    #+#             */
+/*   Updated: 2022/07/23 19:35:36 by amagnell         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
 #include <unistd.h>
+#include <stdio.h>
 
-int	ft_strlen(char *str)
+//function which separates a given number decimally
+
+void	ft_separate(char *num)
 {
-	int	i;
+	num = argv[1][0];
 
-	i = 0;
-	while (str[i] != '\0')
-	{
-		i++;
-	}
-	return (i);
+	write (1, argv[1][1], 1);
 }
 
-int	main(void)
+int	main(int argc, char *argv[])
 {
-	printf("%d", ft_strlen("Bye!"));
+	ft_separate(argv[1]);
 	return (0);
 }
